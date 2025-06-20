@@ -1,0 +1,32 @@
+title: OpenSourceInCyber
+description: Supporting businesses worldwide with open source cybersecurity tools and resources
+url: https://opensourceincyber.org
+baseurl: ""
+theme: minima
+github_username: opensourceincyber
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /:collection/:name
+  tutorials:
+    output: true
+    permalink: /:collection/:name
+
+# Navigation
+header_pages:
+  - about.md
+  - getting-started.md
+  - tools.md
+  - tutorials.md
+  - community.md
+  - faq.md
+  - contact.md
+  - blog.md
