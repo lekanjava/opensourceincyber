@@ -17,3 +17,36 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+
+
+# Node.js artifacts
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# Env files & secrets
+.env
+.env.*
+secret.*
+*.key
+*.pem
+*.pfx
+*.jks
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Build / coverage
+coverage/
+
+
+
