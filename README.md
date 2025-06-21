@@ -38,7 +38,7 @@ The repository is organized as follows:
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/lekanjava/opensourceincyber.git
    ```
 2. Navigate through the markdown files to explore the content.
 3. If using Jekyll, build the site locally:
@@ -49,7 +49,10 @@ The repository is organized as follows:
 
 ## Contributions
 We welcome contributions to improve the documentation and resources. Please follow these steps:
-1. Fork the repository.
+1. Fork the repository:
+   ```bash
+   gh repo fork lekanjava/opensourceincyber
+   ```
 2. Make your changes.
 3. Submit a pull request with a detailed description.
 
